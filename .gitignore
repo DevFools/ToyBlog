@@ -35,3 +35,9 @@ out/
 
 ### VS Code ###
 .vscode/
+<<<<<<< HEAD
+=======
+
+### Ignore File ###
+application.yml
+>>>>>>> ad954596d90cd127c2120926226fee9bf6929389
