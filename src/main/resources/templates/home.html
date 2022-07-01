@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .wrapper {
+            width : 800px;
+            heigth: 500px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <div th:replace="/fragments/head :: head" />
+    <div id="content-wrapper">
+        <h1>굿</h1>
+        <div id="main-content">
+            <div id="nav"></div>
+            <div id="content">
+                <div class="list"></div>
+                <div class="list"></div>
+            </div>
+        </div>
+        <div id="paging"></div>
+    </div>
+    <div id="footer"></div>
+</div>
+</body>
+</html>
