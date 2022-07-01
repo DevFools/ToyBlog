@@ -27,6 +27,8 @@ public class Member {
 
     private String blogName;
 
+    private Long totalView;
+
     //추가 연관관계//
 
     @OneToMany(mappedBy = "member")
