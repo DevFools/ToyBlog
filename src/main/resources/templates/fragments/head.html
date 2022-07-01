@@ -9,12 +9,12 @@
         </form>
         <div id="login" th:if="${session.memberSession != null}">
             <p>닉네임님 환영합니다</p>
-            <a href="">로그아웃</a>
-            <a href="">마이페이지</a>
+            <a href="/memebr/logout">로그아웃</a>
+            <a href="/member/mypage">마이페이지</a>
         </div>
         <div id="notLogin" th:if="${session.memberSession == null}">
-            <a href="">로그인</a>
-            <a hef="">회원가입</a>
+            <a href="/member/login">로그인</a>
+            <a href="/member/new">회원가입</a>
         </div>
     </div>
 </div>
