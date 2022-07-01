@@ -36,4 +36,6 @@ public class MemberController {
         model.addAttribute("newMemberForm", new NewMemberForm());
         return "/member/createMember";
     }
+
+    /** 검색 기능은 로그인과 회원가입 기능을 제작하고 제작 **/
 }
